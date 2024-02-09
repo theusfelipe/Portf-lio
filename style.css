@@ -47,10 +47,6 @@ nav {
   padding: 1rem 3rem;
 }
 
-.imagelogo {
-  /* Altura desejada */
-  overflow: hidden; /* Para esconder as partes da imagem que ultrapassam o contêiner */
-}
 .imagelogo img {
   border-radius: 50%; /* Torna a borda do contêiner redonda */
   display: block;
