@@ -13,9 +13,9 @@
 body {
   background-image: url(./assets/cellphone.jpg);
   font-size: 1.6rem;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   height: 100vh;
 }
 
@@ -30,23 +30,31 @@ nav {
   max-width: 80%;
   margin: auto;
   padding: 1.4rem 1rem;
-  background-color: #000000b5;
+  background-color: #302d2db5;
   backdrop-filter: blur(10px);
-  border-radius: 3rem;
+  border-radius: 5rem;
   margin-top: 1rem;
-  /* box-shadow: 0px 0px 3px rgb(254 116 62); */
+  box-shadow: 0px 0px 3px rgb(254 116 62);
 }
-
 
 nav {
   /* border: 2px solid blue; */
 }
 
 .boximage {
-  background-color: #857979;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
+  align-items: center;
 }
+
+.boximage ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 6rem;
+  list-style: none;
+}
+
 .boximage ul li a {
   color: #f4efef;
   text-decoration: none;
@@ -54,22 +62,19 @@ nav {
   font-size: 1rem;
 }
 
-.boximage ul {
-  list-style: none;
+/* .boximage ul {
   display: flex;
   justify-self: end;
   align-items: center;
   gap: 120px;
   padding: 1rem 3rem;
-}
+} */
 
-.boximage ul li a:hover{
+.boximage ul li a:hover {
   cursor: pointer;
   transition: 1s;
   color: aqua;
 }
-
-
 
 .imagelogo img {
   border-radius: 50%; /* Torna a borda do contêiner redonda */
