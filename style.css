@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url(./assets/cellphone.jpg);
+  background-image: url(./assets/back1css.jpg);
   font-size: 1.6rem;
   background-size: cover;
   background-position: center;
@@ -43,7 +43,7 @@ nav {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .boximage ul {
@@ -52,7 +52,7 @@ nav {
   gap: 5rem;
   list-style: none;
   margin: 1rem;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .boximage ul li a {
@@ -60,7 +60,7 @@ nav {
   text-decoration: none;
   font-weight: 900;
   font-size: 1rem;
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
 }
 
 .boximage ul li a:hover {
@@ -82,17 +82,21 @@ main {
 }
 
 main h1 {
-  color: rgb(255, 255, 255);
-  font-size: 50px;
+  color: rgb(225, 218, 218);
+  font-size: 38px;
   margin-top: 15px;
   font-family: "DotGothic16", sans-serif;
   font-weight: 900;
 }
 
 main p {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  font-family: "Roboto Serif", serif;
+  color: rgb(233, 150, 150);
+  font-size: 21px;
+  font-family: "Roboto Serif", sans-serif;
   font-weight: 900;
   margin-top: 2rem;
+}
+
+p strong {
+  color: rgb(255, 255, 255);
 }
