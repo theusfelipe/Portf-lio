@@ -51,29 +51,21 @@ nav {
 .boximage ul {
   display: flex;
   justify-content: space-between;
-  gap: 6rem;
+  gap: 5rem;
   list-style: none;
 }
 
 .boximage ul li a {
-  color: #f4efef;
+  color: #c79a9a;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
 }
 
-/* .boximage ul {
-  display: flex;
-  justify-self: end;
-  align-items: center;
-  gap: 120px;
-  padding: 1rem 3rem;
-} */
-
 .boximage ul li a:hover {
   cursor: pointer;
-  transition: 1s;
-  color: aqua;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
 }
 
 .imagelogo img {
