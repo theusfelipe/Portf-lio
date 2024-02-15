@@ -11,8 +11,8 @@
 }
 
 body {
+  background-image: url(./assets/cellphone.jpg);
   font-size: 1.6rem;
-  background-color: rgb(75, 63, 40);
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
   background-position: center; /* Centraliza a imagem */
 }
