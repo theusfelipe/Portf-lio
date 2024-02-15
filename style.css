@@ -12,14 +12,14 @@
 
 body {
   font-size: 1.6rem;
-  background-color: rgb(199, 183, 162);
+  background-color: rgb(75, 63, 40);
   background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
   background-position: center; /* Centraliza a imagem */
 }
 
 .app {
-  width: 100%;
-  height: 100vh;
+  width: 45.4rem;
+  height: 30rem;
 }
 
 nav {
@@ -62,7 +62,7 @@ main h1 {
   color: rgb(126, 121, 121);
   font-size: 50px;
   margin-top: 15px;
-  font-family: "Carrois Gothic SC", sans-serif;
+  font-family: "DotGothic16", sans-serif;
 }
 
 main p {
@@ -70,4 +70,5 @@ main p {
   font-size: 20px;
   font-family: "Roboto Serif", serif;
   font-weight: 900;
+  margin-top: 2rem;
 }
