@@ -10,23 +10,23 @@
   font-size: 62, 5%;
 }
 
+
 body {
   background-image: url(./assets/back1css.jpg);
-  font-size: 1.6rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  font-family: "Roboto Serif", sans-serif;
 }
 
 nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  width: 100vw;
-  height: 100%;
-  padding: 2rem 1rem;
+  max-width: 100vw;
+  padding: 1.4rem 1rem;
+  margin: auto;
 
   background-color: #120808b5;
   backdrop-filter: blur(10px);
@@ -49,25 +49,24 @@ nav :where(ul, li, a) {
   font-size: 1.2rem;
 }
 
-nav :where(ul,li,a:hover) {
+nav :where(ul, li, a:hover) {
   cursor: pointer;
   transition: 0.2s;
-  color: rgb(0, 0, 0);
-
+  color: rgb(255, 255, 255);
 }
 
 nav :where(h2) {
-color: rgb(225, 218, 218);
+  color: rgb(225, 218, 218);
+  font-size: 1.3rem;
+  font-weight: 100;
 }
 
 .imagelogo img {
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
-  /* border: 1px solid yellow; */
+  max-width: 50%;
+  height: 100%;
+  border-radius: 100%;
+  border: 3px solid rgb(254 116 62);
   overflow: hidden;
-  /* margin: ;
-  padding: 0.5rem 0.5rem; */
 }
 
 main {
