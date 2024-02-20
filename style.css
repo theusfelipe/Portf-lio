@@ -146,8 +146,8 @@ p strong {
   font-weight: 900;
 }
 
-.btn-contact :where(button:hover){
+.btn-contact :where(button:hover) {
   background-color: #ffffff;
   transition: 0.5s;
-  color:rgb(194, 92, 20) ;
+  color: rgb(194, 92, 20);
 }
