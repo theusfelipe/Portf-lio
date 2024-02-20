@@ -120,10 +120,10 @@ p strong {
 .curriculo :where(button) {
   margin-top: 2rem;
   border-radius: 3rem;
-  /* height: 2.9rem; */
-  padding: 0.5rem 0.5rem;
+  padding: 0.6rem 0.5rem;
+  color: white;
 
-  background-color: rgb(240, 179, 155);
+  background-color: rgb(208, 78, 26);
   font-size: 0.9rem;
   color: rgb(0, 0, 0);
 
@@ -131,16 +131,23 @@ p strong {
   font-weight: 900;
 }
 
-.btn-contact :where(button) {
+.contact :where(button) {
   margin-top: 2rem;
   border-radius: 3rem;
   height: 2.9rem;
   padding: 0.5rem 0.5rem;
+  color: white;
 
-  background-color: rgb(240, 179, 155);
+  background-color: rgb(208, 78, 26);
   font-size: 0.9rem;
   color: rgb(0, 0, 0);
 
   font-family: "DotGothic16", sans-serif;
   font-weight: 900;
+}
+
+.btn-contact :where(button:hover){
+  background-color: #ffffff;
+  transition: 0.5s;
+  color:rgb(194, 92, 20) ;
 }
