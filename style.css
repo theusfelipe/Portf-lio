@@ -69,13 +69,10 @@ nav :where(h2) {
 }
 
 .imagelogo img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-
-  width: 11rem;
-  height: 100%;
+  display: block;
+  width: 11.2rem;
+  margin: auto;
+  /* height: ; */
   border-radius: 100%;
   border: 3px solid rgb(254 116 62);
   overflow: hidden;
@@ -85,7 +82,6 @@ nav :where(h2) {
   display: flex;
   justify-content: center;
   font-size: 2.3rem;
-  
 }
 
 .social-links a {
@@ -93,14 +89,14 @@ nav :where(h2) {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  color:rgb(226, 226, 226); ;
-  
+  color: rgb(226, 226, 226);
+  margin-top: 2rem;
 }
 
 .social-links a:hover {
-background-color: rgb(234, 115, 36);
-border-radius: 4rem;
-transition: 1s;
+  background-color: rgb(234, 115, 36);
+  border-radius: 4rem;
+  transition: 1s;
 }
 
 main {
