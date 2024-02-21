@@ -72,8 +72,9 @@ nav :where(h2) {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
 
-  max-width: 50%;
+  width: 11rem;
   height: 100%;
   border-radius: 100%;
   border: 3px solid rgb(254 116 62);
@@ -83,17 +84,23 @@ nav :where(h2) {
 .social-links {
   display: flex;
   justify-content: center;
-  padding: 2rem 0;
-  border: 1px solid white;
-  font-size: 2.4rem;
+  font-size: 2.3rem;
+  
 }
 
 .social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.6rem;
-  transition: background 0.2s;
+  padding: 1rem;
+  color:rgb(226, 226, 226); ;
+  
+}
+
+.social-links a:hover {
+background-color: rgb(234, 115, 36);
+border-radius: 4rem;
+transition: 1s;
 }
 
 main {
