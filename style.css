@@ -29,7 +29,7 @@ body {
 
 nav {
   display: flex;
-  justify-content: right;
+  justify-content: end;
   align-items: center;
   max-width: 100%;
   padding: 1.4rem 1rem;
@@ -47,7 +47,6 @@ nav :where(ul, li, a) {
   display: flex;
   justify-content: space-between;
   gap: 5rem;
-  align-items: center;
   list-style: none;
   text-decoration: none;
   color: #000000;
@@ -61,13 +60,17 @@ nav :where(ul, li, a:hover) {
 }
 
 nav :where(li:hover) {
-  background-color: #ffffff;
+  background-color: #d6cfcf;
   padding: 0.02rem 0.02rem;
   border-radius: 5rem;
   transition: 0.7s;
 }
 
 nav :where(h2) {
+  
+  
+
+  border: 1px solid black;
   color: rgb(100, 98, 98);
   font-size: 1.1rem;
   font-weight: 900;
@@ -81,7 +84,6 @@ nav :where(h2) {
   overflow: hidden;
   border: 3px solid rgb(5, 5, 5);
 }
-
 
 .social-links {
   display: flex;
