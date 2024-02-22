@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url(./assets/back1css.jpg);
+  background-image: url(./assets/back5css.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ main {
 }
 
 main h1 {
-  color: rgb(225, 218, 218);
+  color: rgb(49, 47, 47);
   font-size: 38px;
   margin-top: 15px;
   font-family: "DotGothic16", sans-serif;
@@ -125,16 +125,17 @@ main h1 {
 }
 
 .mainfirst p {
-  color: rgb(233, 150, 150);
+  color: rgb(30, 27, 27);
   font-size: 21px;
   font-family: "Roboto Serif", sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   margin-top: 2rem;
   line-height: 1.7rem;
 }
 
 p strong {
-  color: rgb(255, 255, 255);
+  color: rgb(116, 53, 40);
+  font-weight: 900;
 }
 
 .btn-contact {
