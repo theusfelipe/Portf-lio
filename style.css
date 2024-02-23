@@ -31,7 +31,7 @@ nav {
 	justify-content: right;
 	align-items: center;
 	max-width: 85rem;
-	padding: 1.4rem 1rem;
+	padding: 1.2rem 1rem;
 	margin: auto;
 
 	background-color: #40373728;
@@ -39,16 +39,16 @@ nav {
 	border-radius: 4rem;
 
 	margin-top: 1.8rem;
-	box-shadow: 0px 0px 3px rgb(216, 211, 209);
+	box-shadow: 0px 0px 3px rgb(83, 79, 78);
 }
 
 nav :where(ul, li, a) {
 	display: flex;
 	justify-content: space-between;
-	gap: 3rem;
+	gap: 2.5rem;
 	list-style: none;
 	text-decoration: none;
-	color: #4d4c4c;
+	color: #000000be;
 	font-weight: 500;
 	font-size: 1.1rem;
 	font-family: 'Kalam', cursive;
@@ -66,18 +66,12 @@ nav :where(li:hover) {
 	transition: 0.7s;
 }
 
-nav :where(h2) {
+nav .logo h2 {
 	/* border: 1px solid black; */
-	color: rgb(0, 0, 0);
-	font-size: 1.1rem;
+	color: rgb(51, 48, 48);
+	font-size: 1rem;
 	font-weight: 600;
 	font-family: 'Kalam', cursive;
-}
-
-nav .port {
-	display: flex;
-	justify-content: left;
-	justify-items: left;
 }
 
 .imagelogo img {
