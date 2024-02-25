@@ -30,6 +30,7 @@ nav {
   display: flex;
   justify-content: right;
   align-items: center;
+
   max-width: 85rem;
   padding: 1.2rem 1rem;
   margin: auto;
@@ -66,8 +67,10 @@ nav :where(li:hover) {
   transition: 0.7s;
 }
 
-nav .logo h2 {
-  /* border: 1px solid black; */
+nav h2 {
+	display: flex;
+	justify-content: start;
+  border: 1px solid black;
   color: rgb(51, 48, 48);
   font-size: 1rem;
   font-weight: 600;
@@ -145,7 +148,7 @@ p strong {
 }
 
 .curriculo :where(button) {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   border-radius: 3rem;
   padding: 0.6rem 0.5rem;
   color: white;
@@ -165,7 +168,8 @@ p strong {
 }
 
 .btn-contact :where(a) {
-	text-decoration: none;
-	color: black;
-	font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  padding: 0.6rem 0.5rem;
 }
