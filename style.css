@@ -31,7 +31,8 @@ nav {
   justify-content: right;
   align-items: center;
 
-  max-width: 85rem;
+  width: 100%;
+  max-width: 120rem;
   padding: 1.2rem 1rem;
   margin: auto;
 
@@ -47,9 +48,11 @@ nav :where(ul, li, a) {
   display: flex;
   justify-content: space-between;
   gap: 2.5rem;
+
   list-style: none;
   text-decoration: none;
   color: #000000be;
+
   font-weight: 500;
   font-size: 1.1rem;
   font-family: "Kalam", cursive;
@@ -67,16 +70,21 @@ nav :where(li:hover) {
   transition: 0.7s;
 }
 
-nav h2 {
-	display: flex;
-	justify-content: start;
+/* nav h2 {
+  display: flex;
+  justify-content: start;
   border: 1px solid black;
+
   color: rgb(51, 48, 48);
   font-size: 1rem;
   font-weight: 600;
   font-family: "Kalam", cursive;
-}
+} */
 
+.logoport {
+  display: flex;
+  justify-content: end;
+}
 .imagelogo img {
   display: block;
   width: 11.2rem;
@@ -117,7 +125,7 @@ main h1 {
   font-size: 2.5rem;
   margin-top: 1.5rem;
   font-family: "DotGothic16", sans-serif;
-  font-weight: 900;
+  font-weight: 300;
   text-align: center;
 }
 
