@@ -16,7 +16,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: contain;
   height: 100%;
 }
 
@@ -28,63 +27,58 @@ body {
 
 nav {
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   align-items: center;
 
-  width: 100%;
-  max-width: 120rem;
-  padding: 1.2rem 1rem;
-  margin: auto;
+  height: 8vh;
 
   background-color: #40373728;
   backdrop-filter: blur(8px);
-  border-radius: 4rem;
 
-  margin-top: 1.8rem;
   box-shadow: 0px 0px 3px rgb(83, 79, 78);
 }
 
-nav :where(ul, li, a) {
+.nav-list {
   display: flex;
   justify-content: space-between;
-  gap: 2.5rem;
+  gap: 2.9rem;
 
   list-style: none;
   text-decoration: none;
-  color: #000000be;
+  color: #161616be;
 
   font-weight: 500;
-  font-size: 1.1rem;
-  font-family: "Kalam", cursive;
+  font-size: 1.2rem;
+  font-family: "Courier New", Courier, monospace;
 }
+
+.nav-list a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.528);
+}
+
+.nav-list li {
+  letter-spacing: 0.1rem;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+
 
 nav :where(ul, li, a:hover) {
   cursor: pointer;
   transition: 0.2s;
 }
 
-nav :where(li:hover) {
-  background-color: #979494;
-  padding: 0.02rem 0.02rem;
-  border-radius: 5rem;
-  transition: 0.7s;
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.528);
 }
 
-/* nav h2 {
-  display: flex;
-  justify-content: start;
-  border: 1px solid black;
-
-  color: rgb(51, 48, 48);
-  font-size: 1rem;
-  font-weight: 600;
-  font-family: "Kalam", cursive;
-} */
-
-.logoport {
-  display: flex;
-  justify-content: end;
-}
 .imagelogo img {
   display: block;
   width: 11.2rem;
@@ -181,3 +175,13 @@ p strong {
   font-size: 1rem;
   padding: 0.6rem 0.5rem;
 }
+
+/* @media only screen and (max-width: 600px) {
+  .logoport {
+    display: block;
+  }
+
+  nav,ul {
+    display: none;
+  }
+} */
