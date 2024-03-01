@@ -13,15 +13,13 @@ class MobileNavBar {
       link.style.animation
         ? (link.style.animation = "")
         : (link.style.animation = `navLinkFade 0.5s ease forwards" 
-        ${index / 7 + 0.3
-      }s`);
+        ${index / 7 + 0.3}s`);
     });
   }
 
   handleClick() {
-    console.log(this);
-    this.mobileMenu.classList.toggle(this.activeClass);
     this.navList.classList.toogle(this.activeClass);
+    this.mobileMenu.classList.toggle(this.activeClass);
     this.animateLinks();
   }
 
