@@ -89,10 +89,9 @@ nav :where(ul, li, a:hover) {
 }
 
 @media (max-width: 999px) {
-  body{
+  body {
     overflow-x: hidden;
   }
-
 
   .nav-list {
     position: absolute;
@@ -109,6 +108,7 @@ nav :where(ul, li, a:hover) {
     backdrop-filter: blur(8px);
     box-shadow: 0px 0px 3px rgb(83, 79, 78);
 
+    transition: transform 0.3s ease-in;
     transform: translateX(100%);
   }
 
@@ -124,6 +124,17 @@ nav :where(ul, li, a:hover) {
 
 .nav-list.active {
   transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .imagelogo img {

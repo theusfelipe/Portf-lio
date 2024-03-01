@@ -1,6 +1,6 @@
 class MobileNavBar {
-  constructor(mobilemenu) {
-    this.mobilemenu = document.querySelector(mobilemenu);
+  constructor(mobileMenu, navList, navLinks) {
+    this.mobileMenu = document.querySelector(mobileMenu);
     this.navList = document.querySelector(navList);
     this.navLinks = document.querySelectorAll(navLinks);
     this.activeClass = "active";
@@ -8,13 +8,23 @@ class MobileNavBar {
     this.handleClick = this.handleClick.bind();
   }
 
+
+  animateLinks() {
+    this.navLinks.forEach((link) => {
+      link.style.animation
+      ? (link.style.animation = "")
+      : (link.style.animation = 'navLinkFade 0.5s ease forwards 0.3s');
+    })
+  }
+
   handleClick() {
     console.log(this);
-    this.navList.classlist.toogle(this.activeClass);
+    this.navList.classList.toogle(this.activeClass);
+    this.animateLinks();
   }
 
   addClickEvent() {
-    this.mobilemenu.addEventListener("click", this.handleClick);
+    this.mobileMenu.addEventListener("click", this.handleClick);
   }
 
   init() {
