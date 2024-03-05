@@ -16,7 +16,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 100%;
 }
 
 #container {
@@ -60,22 +60,32 @@ nav {
 .nav-list li {
   letter-spacing: 0.1rem;
   margin-left: 15px;
-  font-weight: 500;
+  font-weight: 540;
 }
 
-nav :where(ul, li, a:hover) {
+/* nav :where(ul, li, a:hover) {
   cursor: pointer;
   transition: 0.2s;
+} */
+
+.nav-list a:hover {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.528);
 }
 
 .logo {
   font-size: 24px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
+
   text-decoration: none;
   color: rgba(0, 0, 0, 0.528);
 }
 
+.logo:hover {
+  color: black;
+  transition: 0.5s;
+}
 .mobile-menu {
   cursor: pointer;
   display: none;
@@ -146,8 +156,6 @@ nav :where(ul, li, a:hover) {
 .mobile-menu.activer .line1 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
-
-
 
 .imagelogo img {
   display: block;
