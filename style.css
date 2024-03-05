@@ -45,7 +45,6 @@ nav {
   text-decoration: none;
   color: #161616be;
 
-  
   font-size: 1.2rem;
   font-family: "Courier New", Courier, monospace;
 }
@@ -53,11 +52,12 @@ nav {
 .nav-list a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.528);
+  font-weight: 600;
 }
 
 .nav-list li {
   letter-spacing: 0.1rem;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .nav-list a:hover {
@@ -198,20 +198,6 @@ main h1 {
   margin-top: 6.9rem;
 }
 
-.mainfirst p {
-  color: rgb(30, 27, 27);
-  font-size: 1.1rem;
-  font-family: "Roboto Serif", sans-serif;
-  font-weight: 600;
-  margin-top: 2rem;
-  line-height: 1.7rem;
-}
-
-p strong {
-  color: rgb(116, 53, 40);
-  font-weight: 900;
-}
-
 .btn-contact {
   display: flex;
   justify-content: center;
@@ -226,7 +212,7 @@ p strong {
   padding: 0.6rem 0.5rem;
   color: white;
 
-  background-color: transparent;
+  background-color:rgb(218, 211, 211) ;
   font-size: 0.9rem;
   color: rgb(0, 0, 0);
 
@@ -247,12 +233,3 @@ p strong {
   padding: 0.6rem 0.5rem;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .logoport {
-    display: block;
-  }
-
-  nav,ul {
-    display: none;
-  }
-} */
