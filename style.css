@@ -16,13 +16,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
 }
 
 #container {
+  height: 100%;
   width: 100%;
-  /* padding: 2.4rem 2.2rem; */
-  text-align: center;
 }
 
 nav {
@@ -47,7 +45,7 @@ nav {
   text-decoration: none;
   color: #161616be;
 
-  font-weight: 500;
+  
   font-size: 1.2rem;
   font-family: "Courier New", Courier, monospace;
 }
@@ -60,17 +58,12 @@ nav {
 .nav-list li {
   letter-spacing: 0.1rem;
   margin-left: 15px;
-  font-weight: 540;
 }
-
-/* nav :where(ul, li, a:hover) {
-  cursor: pointer;
-  transition: 0.2s;
-} */
 
 .nav-list a:hover {
   cursor: pointer;
-  color: rgba(0, 0, 0, 0.528);
+  color: black;
+  transition: 0.5s;
 }
 
 .logo {
