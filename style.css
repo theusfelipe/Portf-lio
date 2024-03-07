@@ -62,7 +62,7 @@ nav {
 
 .nav-list a:hover {
   cursor: pointer;
-  color: black;
+  color: rgb(4, 19, 59);
   transition: 0.5s;
 }
 
@@ -252,7 +252,7 @@ main h1 {
 
 .about-me p{
   margin-top: 1.5rem;
-  color: #000000;
+  color: #160849;
   
   margin: auto;
   font-size: 1.1rem;
