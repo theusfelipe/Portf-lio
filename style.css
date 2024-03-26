@@ -241,7 +241,7 @@ main h1 {
 
 .box-project1 {
   height: 100px;
-  width: 50px;
-
-  background-color: brown;
+  width: 500px;
+  border: 1px solid red;
+  background-color: black;
 }
