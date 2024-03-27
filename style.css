@@ -242,8 +242,10 @@ main h1 {
   font-family: "Satisfy", cursive;
 }
 
+
+/* PROJETO NUMERO 1 */
 .box-project1 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 25rem;
   height: 20rem;
   border-radius: 1rem;
@@ -258,6 +260,49 @@ main h1 {
 }
 
 .box-project1 p {
+  text-align: center;
+  margin-top: 15rem;
+}
+
+/* PROJETO NUMERO 2 */
+.box-project2 {
+  /* border: 1px solid red; */
+  width: 25rem;
+  height: 20rem;
+  border-radius: 1rem;
+  background-color: #8d8c90d0;
+}
+
+.box-project2 h4 {
+  margin: 1rem;
+  color: rgb(22, 22, 70);
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+.box-project2 p {
+  text-align: center;
+  margin-top: 15rem;
+}
+
+
+/* PROJETO NUMERO 3 */
+.box-project3 {
+  /* border: 1px solid red; */
+  width: 25rem;
+  height: 20rem;
+  border-radius: 1rem;
+  background-color: #8d8c90d0;
+}
+
+.box-project3 h4 {
+  margin: 1rem;
+  color: rgb(22, 22, 70);
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
+.box-project3 p {
   text-align: center;
   margin-top: 15rem;
 }
