@@ -245,6 +245,7 @@ main h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   gap: 5rem;
 
   margin: auto;
@@ -255,7 +256,7 @@ main h1 {
 
 /* PROJETO NUMERO 1 */
 .box-project1 {
-  /* border: 1px solid red; */
+  
   width: 25rem;
   height: 20rem;
   border-radius: 1rem;
@@ -272,6 +273,12 @@ main h1 {
 .box-project1 p {
   text-align: center;
   margin-top: 15rem;
+}
+
+.box-content1 img{
+  
+  width: 18rem;
+  height: 10rem;
 }
 
 /* PROJETO NUMERO 2 */
