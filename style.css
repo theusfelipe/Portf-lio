@@ -250,6 +250,7 @@ main h1 {
 
   margin: auto;
   margin-top: 12rem;
+  margin-bottom: 3rem;
   font-family: "Satisfy", cursive;
 }
 
@@ -259,13 +260,13 @@ main h1 {
   width: 30rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #8d8c90d0;
+  background-color: #a59f9f80;
 }
 
 .box-project1 h4 {
   color: rgb(13, 13, 15);
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   text-align: center;
 }
 
@@ -289,14 +290,14 @@ main h1 {
   width: 30rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #8d8c90d0;
+  background-color: #a59f9f80;
 }
 
 .box-project2 h4 {
   text-align: center;
   color: rgb(13, 13, 15);
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .box-project2 p {
@@ -316,20 +317,30 @@ main h1 {
 /* PROJETO NUMERO 3 */
 .box-project3 {
   /* border: 1px solid red; */
-  width: 25rem;
+  padding: 1rem 3.2rem;
+  width: 30rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #8d8c90d0;
+  background-color: #a59f9f80;
 }
 
 .box-project3 h4 {
-  margin: 1rem;
-  color: rgb(22, 22, 70);
+  text-align: center;
+  color: rgb(13, 13, 15);
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .box-project3 p {
   text-align: center;
-  margin-top: 15rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.box-project3 img {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.2rem;
 }
