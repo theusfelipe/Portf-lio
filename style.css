@@ -137,14 +137,15 @@ main h1 {
 .about-me {
   background-color: #a59f9f80;
   border-radius: 2rem;
-
+  width:25rem;
 
   margin-top: 8rem;
   border: 1px solid #d2963593;
-  margin: 1.9rem;
+  margin: auto;
+
   margin-bottom: 5rem;
   height: 100%;
-  
+  text-align: center;
 }
 
 .about-me h2 {
