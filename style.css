@@ -171,6 +171,24 @@ main h1 {
   font-family: "Satisfy", cursive;
 }
 
+.techs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  
+  font-size:2rem;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+}
+
+.techs h4 {
+  color: #d29635;
+  font-size: 3rem;
+  font-family: "Satisfy", cursive;
+  font-weight:100;
+}
 
 
 .titulo-projetos h1 {
