@@ -189,6 +189,7 @@ main h1 {
   font-size: 3rem;
   font-family: "Satisfy", cursive;
   font-weight:100;
+  text-decoration: underline;
 }
 
 
@@ -196,6 +197,7 @@ main h1 {
   margin-bottom: 1rem;
   color: #d29635;
   font-weight: 100;
+  text-decoration: underline;
 }
 
 .projetos {
