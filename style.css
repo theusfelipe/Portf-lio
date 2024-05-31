@@ -11,28 +11,45 @@
 }
 
 body {
-  background: rgb(150,150,150);
-background: radial-gradient(circle, rgba(150,150,150,1) 0%, rgba(163,163,163,1) 18%, rgba(242,242,242,1) 37%, rgba(189,189,189,1) 52%, rgba(184,184,184,1) 80%);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: rgb(31,68,77);
+  background: radial-gradient(circle, rgba(31,68,77,1) 41%, rgba(0,0,0,1) 100%);
 }
 
 
 
 #container {
-  height: 100%;
-  width: 100%;
-  
+  max-width: 100%;
+  text-align: center;
 }
 
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 
+.mainfirst h1 {
+  font-size: 3rem;
+}
+
+.mainfirst p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mainfirst {
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+}
 
 .nav-list {
   display: flex;
   justify-content: space-between;
-  gap: 2.9rem;
+  gap:2rem;
+  
 
   list-style: none;
   text-decoration: none;
@@ -44,7 +61,7 @@ background: radial-gradient(circle, rgba(150,150,150,1) 0%, rgba(163,163,163,1) 
 
 .nav-list a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.528);
+  color: rgb(255, 255, 255);
   font-weight: 100;
 }
 
@@ -52,7 +69,7 @@ background: radial-gradient(circle, rgba(150,150,150,1) 0%, rgba(163,163,163,1) 
   letter-spacing: 0.1rem;
   margin-left: 0.5rem;
   font-family: "Satisfy", cursive;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .nav-list a:hover {
@@ -122,10 +139,7 @@ main h1 {
   text-align: center;
 }
 
-.mainfirst {
-  margin-top: 5rem;
-  margin-bottom: 10rem;
-}
+
 
 #about-me {
   
