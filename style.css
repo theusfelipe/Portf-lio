@@ -18,7 +18,7 @@ body {
 
 
 #container {
-  max-width: 100%;
+  width: 100%;
   text-align: center;
 }
 
@@ -27,11 +27,18 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap:1rem;
   color: white;
 }
 
+.mainfirst {
+  margin-top: 15rem;
+  margin-bottom: 20rem;
+  
+}
+
 .mainfirst h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .mainfirst p {
@@ -40,10 +47,12 @@ header{
   margin-bottom: 1rem;
 }
 
-.mainfirst {
-  margin-top: 15rem;
-  margin-bottom: 20rem;
+
+.mylogo img {
+  width: 100%;
+  height: 20rem;
 }
+
 
 .nav-list {
   display: flex;
@@ -69,7 +78,7 @@ header{
   letter-spacing: 0.1rem;
   margin-left: 0.5rem;
   font-family: "Satisfy", cursive;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .nav-list a:hover {
@@ -362,4 +371,14 @@ main h1 {
   transform: scaleY(0.9);
   transition: 0.8s;
   background-color: #adadad;
+}
+
+
+@media (min-width: 1010px) {
+  /*Desktop*/
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
