@@ -224,7 +224,7 @@ button a  {
 
 .titletechs h4 {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "Satisfy", cursive;
   font-weight:100;
   
@@ -236,48 +236,54 @@ button a  {
   margin-bottom: 2rem;
 
   text-align: center;
-  background-color: #38373b;
+  background-color: rgb(70, 70, 70);
   font-size: 1.5rem;
+  border-radius: 1rem;
 }
 .techbox2 {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
 
   text-align: center;
-  background-color: #38373b;
+  background-color: rgb(70, 70, 70);
   font-size: 1.5rem;
+  border-radius: 1rem;
 }
 .techbox3 {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
 
   text-align: center;
-  background-color: #38373b;
+  background-color: rgb(70, 70, 70);
   font-size: 1.5rem;
+  border-radius: 1rem;
 }
 .techbox4 {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
 
   text-align: center;
-  background-color: #38373b;
+  background-color: rgb(70, 70, 70);
   font-size: 1.5rem;
+  border-radius: 1rem;
 }
 .techbox5 {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
 
   text-align: center;
-  background-color: #38373b;
+  background-color: rgb(70, 70, 70);
   font-size: 1.5rem;
+  border-radius: 1rem;
 }
 .techbox6 {
   padding: 1rem 1rem;
   margin-bottom: 2rem;
 
   text-align: center;
-  background-color: #38373b;
+  background-color: rgb(70, 70, 70);
   font-size: 1.5rem;
+  border-radius: 1rem;
 }
 
 .titulo-projetos h1 {
@@ -470,6 +476,9 @@ button a  {
     display: block;
   }
   
+  .titletechs h4 {
+    display: flex;
+  }
 
 }
 
