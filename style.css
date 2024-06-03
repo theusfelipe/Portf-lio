@@ -84,7 +84,7 @@ header {
   transition: 0.3s;
 }
 
-.imagelogo img {
+.imagelogomobile img {
   width: 18rem;
   height: 25rem;
   object-fit: cover;
@@ -92,6 +92,8 @@ header {
   overflow: hidden; 
   border: 0.4rem solid #00000093;
 }
+
+
 
 .social-links {
   display: flex;
@@ -161,18 +163,25 @@ main h1 {
   font-family: "Satisfy", cursive;
 }
 
+.imagelogodesktop img {
+  width: 18rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden; 
+  border: 0.4rem solid #00000093;
+}
+
+
 .description {
-  margin-top: 1rem;
+  margin-top: 0.1rem;
   text-align: justify;
   line-height: 1.6;
 }
 
 .whatsapp {
- 
-}
-
-.whatsapp {
   padding: 1rem 2rem;
+  margin-top: 0.2rem;
   background-color: rgb(70, 70, 70);
   border-radius: 10rem;
 }
@@ -389,6 +398,7 @@ button a  {
     gap: 10rem;
     padding: 12rem 12rem;
   }
+
  
 
 
