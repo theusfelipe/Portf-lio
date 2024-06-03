@@ -287,7 +287,7 @@ button a  {
 }
 
 .titulo-projetos h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: rgb(255, 255, 255);
   font-weight: 100;
   
@@ -482,8 +482,6 @@ button a  {
   gap: 3rem;
   padding: 6.4rem 11.1rem 8rem;
 
-
-  
  }
 
  .titletechs {
@@ -515,11 +513,17 @@ button a  {
  .titulo-projetos {
   margin-right: 55rem;
   font-size: 1.6rem;
+  
  }
 
  #projetos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr 1fr 1fr);
+  grid-template-columns: repeat(1, 1fr 1fr);
+  gap: 7rem;
+  margin: 7rem;
+  
+  
+
  }
 }
 
