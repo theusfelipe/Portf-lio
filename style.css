@@ -232,11 +232,52 @@ button a  {
 }
 
 .techbox1 {
-  border: 1px solid red;
-  width: 15rem;
-  height:auto;
+  padding: 1rem 1rem;
   margin-bottom: 2rem;
+
   text-align: center;
+  background-color: #38373b;
+  font-size: 1.5rem;
+}
+.techbox2 {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+  background-color: #38373b;
+  font-size: 1.5rem;
+}
+.techbox3 {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+  background-color: #38373b;
+  font-size: 1.5rem;
+}
+.techbox4 {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+  background-color: #38373b;
+  font-size: 1.5rem;
+}
+.techbox5 {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+  background-color: #38373b;
+  font-size: 1.5rem;
+}
+.techbox6 {
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+
+  text-align: center;
+  background-color: #38373b;
+  font-size: 1.5rem;
 }
 
 .titulo-projetos h1 {
