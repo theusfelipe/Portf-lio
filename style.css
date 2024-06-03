@@ -488,7 +488,7 @@ button a  {
 
  .titletechs {
   margin-right: 40rem;
-  text-decoration: uppercase;
+  font-size: 1.6rem;
  }
 
  .techbox1 {
@@ -510,5 +510,16 @@ button a  {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
 
+
+ /*INICIO DO GRID NAS BOXES PROJECT*/
+ .titulo-projetos {
+  margin-right: 55rem;
+  font-size: 1.6rem;
+ }
+
+ #projetos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr 1fr 1fr);
+ }
 }
 
