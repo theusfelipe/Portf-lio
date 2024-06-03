@@ -94,9 +94,6 @@ header {
   border: 0.4rem solid #00000093;
 }
 
-
-
-
 .social-links {
   display: flex;
   justify-content: center;
@@ -145,10 +142,11 @@ main h1 {
   margin-bottom: 5rem;
   height: 100%;
   text-align: center;
+  padding: 2rem 2rem;
 }
 
 #about-me h2 {
-  color: rgb(186, 183, 183);
+  color: rgb(255, 255, 255);
   font-size: 2.2rem;
   font-weight: 600;
   font-family: "Satisfy", cursive;
@@ -158,11 +156,14 @@ main h1 {
   margin-top: 1.5rem;
   color: #38373b;
   margin: 0.5rem;
+
   font-size: 1.2rem;
   font-weight: 500;
   text-align: justify;
+
   color: rgb(216, 216, 216);
   font-family: "Satisfy", cursive;
+  margin-bottom: 1.5rem;
 }
 
 .imagelogodesktop img {
@@ -176,9 +177,9 @@ main h1 {
 }
 
 .description {
-  margin-top: 0.1rem;
   text-align: justify;
   line-height: 1.6;
+  
 }
 
 .whatsapp {
