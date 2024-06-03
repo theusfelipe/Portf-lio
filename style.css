@@ -95,6 +95,7 @@ header {
 
 
 
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -170,8 +171,8 @@ main h1 {
   border-radius: 50%;
   overflow: hidden; 
   border: 0.4rem solid #00000093;
+  margin-bottom: 3rem;
 }
-
 
 .description {
   margin-top: 0.1rem;
@@ -382,6 +383,9 @@ button a  {
   background-color: #adadad;
 }
 
+.imagelogomobile {
+  display: none;
+}
 
 @media (min-width: 1440px) {
   header {
@@ -399,7 +403,10 @@ button a  {
     padding: 12rem 12rem;
   }
 
- 
-
+  .imagelogomobile {
+    display: block;
+  }
+  
 
 }
+
