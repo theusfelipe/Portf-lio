@@ -17,7 +17,7 @@ body {
 
 #container {
   width: 100%;
-  text-align: center;
+  height: 100%;
 }
 
 header {
@@ -29,16 +29,16 @@ header {
   color: white;
 }
 
-.mainfirst {
+.headerfirst {
   margin-top: 15rem;
   margin-bottom: 20rem;
   
 }
-.mainfirst h1 {
+.headerfirst h1 {
   font-size: 2.8rem;
 }
 
-.mainfirst p {
+.headerfirst p {
   font-size: 1.6rem;
   line-height: 2rem;
   margin-bottom: 1rem;
@@ -105,7 +105,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  color: rgb(21, 20, 20);
+  color: rgb(255, 255, 255);
   margin-top: 2rem;
 }
 
@@ -161,9 +161,9 @@ main h1 {
   margin-top: 1.5rem;
   color: #38373b;
   margin: 0.5rem;
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: 500;
-  text-align: center;
+  text-align: justify;
   color: rgb(216, 216, 216);
   font-family: "Satisfy", cursive;
 }
@@ -367,6 +367,19 @@ main h1 {
   }
 
   #about-me {
+    display: flex;
+    justify-content: space-around;
+    gap: 7rem;
+    padding: 4rem 4rem;
+  }
+  #about-me h2 {
+    margin: 4rem;
+  }
 
+  #about-me p {
+    max-width:80rem;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 2rem;
   }
 }
