@@ -134,12 +134,8 @@ main h1 {
 
 
 #about-me {
-  
   border-radius: 2rem;
-  width:25rem;
-
   margin-top: 8rem;
-  
   margin: auto;
 
   margin-bottom: 5rem;
@@ -148,10 +144,7 @@ main h1 {
 }
 
 #about-me h2 {
-  margin: 1rem;
-  margin-top: 1rem;
   color: rgb(186, 183, 183);
-
   font-size: 2.2rem;
   font-weight: 600;
   font-family: "Satisfy", cursive;
@@ -161,12 +154,36 @@ main h1 {
   margin-top: 1.5rem;
   color: #38373b;
   margin: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-align: justify;
   color: rgb(216, 216, 216);
   font-family: "Satisfy", cursive;
 }
+
+.description {
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.whatsapp {
+ 
+}
+
+.whatsapp {
+  padding: 1rem 2rem;
+  background-color: rgb(70, 70, 70);
+  border-radius: 10rem;
+}
+button a  {
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(222, 219, 219);
+  font-weight: 900;
+}
+
+
 
 .techs {
   display: flex;
@@ -368,18 +385,11 @@ main h1 {
 
   #about-me {
     display: flex;
-    justify-content: space-around;
-    gap: 7rem;
-    padding: 4rem 4rem;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 12rem 12rem;
   }
-  #about-me h2 {
-    margin: 4rem;
-  }
+ 
 
-  #about-me p {
-    max-width:80rem;
-    text-align: justify;
-    line-height: 1.6;
-    margin-bottom: 2rem;
-  }
+
 }
