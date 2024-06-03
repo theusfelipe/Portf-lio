@@ -476,9 +476,10 @@ button a  {
     display: block;
   }
   
-  .titletechs h4 {
-    display: flex;
-  }
+ .techboxes {
+  display: grid;
+  grid-template-rows: 3 repeat(1fr);
+ }
 
 }
 
