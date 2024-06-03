@@ -187,13 +187,28 @@ main h1 {
   margin-top: 0.2rem;
   background-color: rgb(70, 70, 70);
   border-radius: 10rem;
+  
+}
+
+.whatsapp-button a  {
+  width: 100rem;
+  height: 100rem;
 }
 button a  {
   font-size: 1rem;
   text-decoration: none;
   color: rgb(222, 219, 219);
   font-weight: 900;
+  width: 100%;
 }
+
+
+.whatsapp:hover {
+  background-color: cadetblue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 
 
 
