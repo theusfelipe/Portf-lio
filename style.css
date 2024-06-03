@@ -478,7 +478,36 @@ button a  {
   
  .techboxes {
   display: grid;
-  grid-template-rows: 3 repeat(1fr);
+  grid-template-columns: repeat(3, 1fr 1fr 1fr);
+  gap: 3rem;
+  padding: 6.4rem 11.1rem 8rem;
+
+
+  
+ }
+
+ .titletechs {
+  margin-right: 40rem;
+  text-decoration: uppercase;
+ }
+
+ .techbox1 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox2 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox3 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox4 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox5 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox6 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
  }
 
 }
