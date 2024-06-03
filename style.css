@@ -27,11 +27,12 @@ header {
   justify-content: center;
   gap: 1rem;
   color: white;
+  margin-top: 5rem;
 }
 
 .headerfirst {
   margin-top: 15rem;
-  margin-bottom: 20rem;
+  margin-bottom: 5rem;
   
 }
 .headerfirst h1 {
