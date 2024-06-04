@@ -94,6 +94,28 @@ header {
   border: 0.4rem solid #00000093;
 }
 
+
+
+
+
+
+
+main {
+  margin-top: 10rem;
+  padding: 1.2rem 1rem;
+}
+
+main h1 {
+  color: rgb(82, 78, 78);
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 300;
+  text-align: center;
+}
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -116,20 +138,23 @@ header {
   transition: 1s;
 }
 
-main {
-  margin-top: 10rem;
-  padding: 1.2rem 1rem;
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
 }
 
-main h1 {
-  color: rgb(82, 78, 78);
+.contact h1 {
+  color: rgb(255, 255, 255);
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  font-family: "Satisfy", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-weight: 300;
-  text-align: center;
+}
+
+.contact p {
+  color:gray;
+  font-size: 1.2rem;
 }
 
 
@@ -286,6 +311,26 @@ button a  {
   font-size: 1.5rem;
   border-radius: 0.5rem;
 }
+
+.techbox1 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox2 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox3 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox4 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox5 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .techbox6 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
 
 .titulo-projetos h1 {
   margin-bottom: 0.5rem;
