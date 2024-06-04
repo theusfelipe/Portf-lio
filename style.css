@@ -27,7 +27,7 @@ header {
   justify-content: center;
   gap: 1rem;
   color: white;
-  margin-top: 5rem;
+  margin-top: 18rem;
 }
 
 .headerfirst {
@@ -481,11 +481,16 @@ button a  {
   grid-template-columns: repeat(3, 1fr 1fr 1fr);
   gap: 3rem;
   padding: 6.4rem 11.1rem 8rem;
-
+  margin-right: 15rem;
  }
 
+ .techs {
+  margin-left: 25rem;
+ }
+
+
  .titletechs {
-  margin-right: 40rem;
+  margin-right: 25rem;
   font-size: 1.6rem;
  }
 
