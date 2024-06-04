@@ -522,8 +522,8 @@ button a  {
   #about-me {
     display: flex;
     justify-content: space-between;
-    gap: 20rem;
-    padding: 20rem 20rem;
+    gap: 8rem;
+    padding: 8rem;
   }
 
   .imagelogomobile {
