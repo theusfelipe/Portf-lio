@@ -314,11 +314,12 @@ button a  {
   width: 25rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #a59f9f80;
+  background-color: rgb(28, 79, 92);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .box-project1 h4 {
-  color: rgb(13, 13, 15);
+  color: rgb(255, 255, 255);
   font-weight: 200;
   font-size: 1.4rem;
   text-align: center;
@@ -328,6 +329,7 @@ button a  {
   text-align: center;
   margin-top: 1rem;
   font-size: 1.2rem;
+  color: #adadad;;
 }
 
 .box-content1 img {
@@ -350,12 +352,13 @@ button a  {
   width: 25rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #a59f9f80;
+  background-color: rgb(28, 79, 92);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .box-project2 h4 {
   text-align: center;
-  color: rgb(13, 13, 15);
+  color: rgb(255, 255, 255);
   font-weight: 200;
   font-size: 1.4rem;
 }
@@ -364,6 +367,7 @@ button a  {
   text-align: center;
   margin-top: 1rem;
   font-size: 1.2rem;
+  color:#adadad;
 }
 
 .box-content2 img {
@@ -377,7 +381,7 @@ button a  {
 .box-project2:hover {
   transform: scaleY(0.9);
   transition: 0.8s;
-  background-color: #adadad;
+  background-color: rgb(28, 79, 92);
 }
 
 /*BOX PROJETO 3 */
@@ -387,12 +391,13 @@ button a  {
   width: 25rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #a59f9f80;
+  background-color: rgb(28, 79, 92);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .box-project3 h4 {
   text-align: center;
-  color: rgb(13, 13, 15);
+  color: rgb(255, 255, 255);
   font-weight: 200;
   font-size: 1.4rem;
 }
@@ -401,6 +406,7 @@ button a  {
   text-align: center;
   margin-top: 1rem;
   font-size: 1.2rem;
+  color: #adadad;
 }
 
 .box-project3 img {
@@ -423,11 +429,12 @@ button a  {
   width: 25rem;
   height: 20rem;
   border-radius: 1rem;
-  background-color: #a59f9f80;
+  background-color: rgb(28, 79, 92);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .box-project4 h4 {
-  color: rgb(13, 13, 15);
+  color: rgb(255, 255, 255);
   font-weight: 200;
   font-size: 1.4rem;
   text-align: center;
@@ -437,6 +444,7 @@ button a  {
   text-align: center;
   margin-top: 1rem;
   font-size: 1.2rem;
+  color:#adadad;
 }
 
 .box-content4 img {
