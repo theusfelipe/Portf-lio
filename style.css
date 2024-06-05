@@ -233,10 +233,13 @@ main h1 {
   margin-bottom: 1.5rem;
 }
 
+
+
 .imagelogodesktop img {
   width: 18rem;
   height: 25rem;
   object-fit: cover;
+
   border-radius: 50%;
   overflow: hidden; 
   border: 0.4rem solid #00000093;
@@ -574,6 +577,8 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 30rem;
+    animation: AppearInTop 3s ease-out forwards;
+    opacity: 0;
   }
 
   #about-me {
@@ -581,44 +586,62 @@ footer {
     justify-content: space-between;
     gap: 8rem;
     padding: 8rem;
+    animation: AppearInTop 1s ease-out forwards;
+   
+  }
+
+  .about-me .box-button {
+    animation: AppearInTop 1s ease-out forwards;
   }
 
   .imagelogomobile {
     display: block;
+    animation: slideIn 3s forwards;
+  
   }
   
  .techboxes {
   display: grid;
   grid-template-columns: repeat(1, 1fr 1fr 1fr);
   gap: 2rem;
+  animation: AppearInTop 3s ease-out forwards;
  }
 
  .techs {
   text-align: center;
+  animation: AppearInTop 3s ease-out forwards;
+  
  }
 
  .titletechs {
   text-align: center;
   font-size: 1.6rem;
+  animation: AppearInTop 3s ease-out forwards;
  }
 
  .techbox1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: AppearInTop 1s ease-out forwards;
  }
  .techbox2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: AppearInTop 2s ease-out forwards;
  }
  .techbox3 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: AppearInTop 3s ease-out forwards;
  }
  .techbox4 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: AppearInTop 4s ease-out forwards;
  }
  .techbox5 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: AppearInTop 5s ease-out forwards;
  }
  .techbox6 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: AppearInTop 6s ease-out forwards;
  }
 
 
@@ -626,7 +649,7 @@ footer {
  .titulo-projetos {
   text-align: center;
   font-size: 1.6rem;
-  
+  animation: AppearInTop 3s ease-out forwards;
  }
 
  #projetos {
@@ -635,6 +658,19 @@ footer {
     gap: 2rem;
     margin: 7rem;
   }
+  .box-project1 {
+    animation: AppearInTop 0.2s ease-out forwards;
+  }
+  .box-project2 {
+    animation: AppearInTop 1.2s ease-out forwards;
+  }
+  .box-project3 {
+    animation: AppearInTop 2.2s ease-out forwards;
+  }
+  .box-project4 {
+    animation: AppearInTop 3.2s ease-out forwards;
+  }
+  
 
   .socialLinks-logo {
     display: block;
@@ -652,4 +688,17 @@ footer {
 
 
 }
+
+@keyframes AppearInTop  {
+   /*Animations*/
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  } 
+}
+
 
