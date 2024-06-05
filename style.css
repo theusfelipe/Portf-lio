@@ -159,10 +159,6 @@ main h1 {
 
   width: 18rem;
 }
-.email-btn a {
-  color: white;
-  padding: 1rem 1rem;
-}
 
 .contact-btn {
   background:rgb(70, 70, 70);
@@ -173,6 +169,14 @@ main h1 {
   width: 18rem;
 }
 
+.curriculo-btn {
+  background:rgb(70, 70, 70);
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(31,68,77);; /*borda azul*/
+  width: 18rem;
+}
 
 #about-me {
   border-radius: 2rem;
