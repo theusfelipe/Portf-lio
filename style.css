@@ -161,8 +161,8 @@ main h1 {
 }
 
 .email-btn img {
-  width: 1.5rem;
-  color: beige;
+  width: 2rem;
+  background-color: rgb(158, 156, 156);
   border-radius: 1rem;
   margin-right: 1rem;
 }
