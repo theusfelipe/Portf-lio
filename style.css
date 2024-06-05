@@ -152,20 +152,37 @@ main h1 {
   font-size: 1.2rem;
 }
 
+.email-container {
+  display: inline;
+}
+
 .email-btn  {
   background:rgb(70, 70, 70);
   margin-top: 2rem;
   padding: 1rem 1rem;
   border-radius: 1rem;
-  border: 2px solid rgb(31,68,77); /*borda azul*/
+
+  
+  border: 2px solid rgb(11, 87, 106); /*borda azul*/
   cursor: pointer;
   width: 19rem;
+}
+
+.email-btn a {
+  display: block;
+  color: White;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 17rem;
 }
 
 .email-btn:hover {
   background-color: cadetblue;
   transition: 0.8s;
-  border: 2px solid rgb(0, 181, 198);
+  border: 2px solid rgb(49, 155, 181);
+}
+.contact-container {
+  display: inline;
 }
 
 .contact-btn {
@@ -173,32 +190,51 @@ main h1 {
   margin-top: 2rem;
   padding: 1rem 1rem;
   border-radius: 1rem;
-  border: 2px solid rgb(31,68,77);; /*borda azul*/
+  border: 2px solid rgb(11, 87, 106); /*borda azul*/
   width: 19rem;
   cursor: pointer;
+}
+.contact-btn a {
+  display: block;
+  color: White;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 17rem;
 }
 
 .contact-btn:hover {
   background-color: cadetblue;
   transition: 0.8s;
-  border: 2px solid rgb(0, 181, 198);
+  border: 2px solid rgb(49, 155, 181);
 }
 
+
+.curriculo-container {
+  display: inline;
+}
 
 .curriculo-btn {
   background:rgb(70, 70, 70);
   margin-top: 2rem;
   padding: 1rem 1rem;
   border-radius: 1rem;
-  border: 2px solid rgb(31,68,77);; /*borda azul*/
+  border: 2px solid rgb(11, 87, 106);; /*borda azul*/
   width: 19rem;
   cursor: pointer;
+}
+
+.curriculo-btn a {
+  display: block;
+  color: White;
+  text-decoration: none;
+  font-size: 1.2rem;
+  width: 18rem;
 }
 
 .curriculo-btn:hover {
   background-color: cadetblue;
   transition: 0.8s;
-  border: 2px solid rgb(0, 181, 198);
+  border: 2px solid rgb(49, 155, 181);
 }
 
 #about-me {
@@ -252,29 +288,28 @@ main h1 {
   
 }
 
-.whatsapp {
+.botao-container {
+  display: inline-block
+}
+
+.botao-link {
   padding: 1rem 2rem;
   margin-top: 0.2rem;
   background-color: rgb(70, 70, 70);
   border-radius: 10rem;
-  
+  border: 2px solid rgb(48, 47, 47);
 }
 
-.whatsapp-button a  {
-  width: 100vh;
-  height: 100vh;
-}
-button a  {
+
+.botao-link   {
   font-size: 1.3rem;
   text-decoration: none;
   color: rgb(222, 219, 219);
   font-weight: 900;
   font-family: "Satisfy", cursive;
-  width: 100vh;
-  height: 100vh;
 }
 
-.whatsapp:hover {
+.botao-link:hover {
   background-color: cadetblue;
   transition: 0.5s;
   cursor: pointer;
