@@ -433,7 +433,6 @@ button a  {
 .box-project1:hover {
   transform: scaleY(0.9);
   transition: 0.8s;
-  background-color: #adadad;
 }
 
 /* BOX PROJETO 2 */
@@ -471,7 +470,7 @@ button a  {
 .box-project2:hover {
   transform: scaleY(0.9);
   transition: 0.8s;
-  background-color: rgb(28, 79, 92);
+  
 }
 
 /*BOX PROJETO 3 */
@@ -510,7 +509,7 @@ button a  {
 .box-project3:hover {
   transform: scaleY(0.9);
   transition: 0.8s;
-  background-color: #adadad;
+  
 }
 
 /*BOX PROJETO 4*/
@@ -548,7 +547,7 @@ button a  {
 .box-project4:hover {
   transform: scaleY(0.9);
   transition: 0.8s;
-  background-color: #adadad;
+  
 }
 
 .imagelogomobile {
