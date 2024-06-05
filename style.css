@@ -156,15 +156,14 @@ main h1 {
   padding: 1rem 1rem;
   border-radius: 1rem;
   border: 2px solid rgb(31,68,77); /*borda azul*/
-  
+  cursor: pointer;
   width: 19rem;
 }
 
-.email-btn img {
-  width: 2rem;
-  background-color: rgb(158, 156, 156);
-  border-radius: 1rem;
-  margin-right: 1rem;
+.email-btn:hover {
+  background-color: cadetblue;
+  transition: 0.8s;
+  border: 2px solid rgb(0, 181, 198);
 }
 
 .contact-btn {
@@ -174,7 +173,15 @@ main h1 {
   border-radius: 1rem;
   border: 2px solid rgb(31,68,77);; /*borda azul*/
   width: 19rem;
+  cursor: pointer;
 }
+
+.contact-btn:hover {
+  background-color: cadetblue;
+  transition: 0.8s;
+  border: 2px solid rgb(0, 181, 198);
+}
+
 
 .curriculo-btn {
   background:rgb(70, 70, 70);
@@ -183,6 +190,13 @@ main h1 {
   border-radius: 1rem;
   border: 2px solid rgb(31,68,77);; /*borda azul*/
   width: 19rem;
+  cursor: pointer;
+}
+
+.curriculo-btn:hover {
+  background-color: cadetblue;
+  transition: 0.8s;
+  border: 2px solid rgb(0, 181, 198);
 }
 
 #about-me {
