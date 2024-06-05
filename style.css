@@ -554,6 +554,19 @@ button a  {
   display: none;
 }
 
+footer {
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+
+  margin-bottom: 2rem;
+  margin-top: 0.1rem;
+}
+
+.socialLinks-logo {
+  display: none;
+}
+
 @media (min-width: 1440px) {
   header {
     display: flex;
@@ -617,13 +630,26 @@ button a  {
  }
 
  #projetos {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr 1fr 1fr);
-  gap: 2rem;
-  margin: 7rem;
-  
-  
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1fr 1fr);
+    gap: 2rem;
+    margin: 7rem;
+  }
 
- }
+  .socialLinks-logo {
+    display: block;
+  }
+  
+  .socialLinks-logo img {
+    width: 18rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden; 
+    border: 0.4rem solid #00000093;
+    margin-bottom: 3rem;
+  }
+
+
 }
 
