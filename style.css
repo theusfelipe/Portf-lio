@@ -705,14 +705,30 @@ footer {
   .box-project1 {
     animation: AppearInTop 0.2s ease-out forwards;
   }
+  .boxproject1:hover {
+    transform: scaleY(0.9);
+    transition: 0.8s;
+  }
   .box-project2 {
     animation: AppearInTop 1.2s ease-out forwards;
+  }
+  .boxproject2.botao-container {
+    transform: scaleY(0.9);
+    transition: 0.8s;
   }
   .box-project3 {
     animation: AppearInTop 2.2s ease-out forwards;
   }
+  .boxproject3:hover {
+    transform: scaleY(0.9);
+    transition: 0.8s;
+  }
   .box-project4 {
     animation: AppearInTop 3.2s ease-out forwards;
+  }
+  .boxproject4:hover {
+    transform: scaleY(0.9);
+    transition: 0.8s;
   }
   
 
