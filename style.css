@@ -477,8 +477,10 @@ main h1 {
 }
 
 .box-project1:hover {
-  transform: scaleY(0.9);
+  transform: scaleY(1.1);
   transition: 0.8s;
+  cursor: pointer;
+  background-color: rgb(105, 147, 149);
 }
 
 /* BOX PROJETO 2 */
@@ -514,9 +516,10 @@ main h1 {
 }
 
 .box-project2:hover {
-  transform: scaleY(0.9);
+  transform: scaleY(1.1);
   transition: 0.8s;
-  
+  cursor: pointer;
+  background-color: rgb(105, 147, 149);
 }
 
 /*BOX PROJETO 3 */
@@ -553,9 +556,10 @@ main h1 {
 }
 
 .box-project3:hover {
-  transform: scaleY(0.9);
+  transform: scaleY(1.1);
   transition: 0.8s;
-  
+  cursor: pointer;
+  background-color: rgb(105, 147, 149);
 }
 
 /*BOX PROJETO 4*/
@@ -591,9 +595,10 @@ main h1 {
 }
 
 .box-project4:hover {
-  transform: scaleY(0.9);
+  transform: scaleY(1.1);
   transition: 0.8s;
-  
+  cursor: pointer;
+  background-color: rgb(105, 147, 149);
 }
 
 .imagelogomobile {
@@ -701,37 +706,54 @@ footer {
     grid-template-columns: repeat(1, 1fr 1fr 1fr);
     gap: 2rem;
     margin: 7rem;
+    animation: AppearInTop 2.2s ease-out forwards;
   }
+
   .box-project1 {
     animation: AppearInTop 0.2s ease-out forwards;
   }
-  .boxproject1:hover {
-    transform: scaleY(0.9);
+
+  .box-project1:hover {
+    transform: scaleY(1.1);
     transition: 0.8s;
+    cursor: pointer;
+    background-color: rgb(105, 147, 149);
   }
+
   .box-project2 {
     animation: AppearInTop 1.2s ease-out forwards;
   }
-  .boxproject2.botao-container {
-    transform: scaleY(0.9);
+
+  .box-project2:hover {
+    transform: scaleY(1.1);
     transition: 0.8s;
+    cursor: pointer;
+    background-color: rgb(105, 147, 149);
   }
+
+ 
   .box-project3 {
     animation: AppearInTop 2.2s ease-out forwards;
   }
-  .boxproject3:hover {
-    transform: scaleY(0.9);
+
+  .box-project3:hover {
+    transform: scaleY(1.1);
     transition: 0.8s;
+    cursor: pointer;
+    background-color: rgb(105, 147, 149);
   }
+
   .box-project4 {
     animation: AppearInTop 3.2s ease-out forwards;
   }
-  .boxproject4:hover {
-    transform: scaleY(0.9);
+  
+  .box-project4:hover {
+    transform: scaleY(1.1);
     transition: 0.8s;
+    cursor: pointer;
+    background-color: rgb(105, 147, 149);
   }
   
-
   .socialLinks-logo {
     display: block;
   }
