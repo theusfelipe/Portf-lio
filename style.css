@@ -28,6 +28,8 @@ header {
   gap: 1rem;
   color: white;
   margin-top: 10rem;
+
+  padding: 6rem 6rem;
   animation: AppearInTop 1s ease-out forwards;
 }
 
@@ -38,24 +40,24 @@ header {
 }
 .headerfirst h1 {
   font-size: 2.8rem;
+  text-align: center;
 }
 
 .headerfirst p {
   font-size: 1.6rem;
   line-height: 2rem;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 #switch {
   position: relative;
   width: 6.4rem;
-  margin: 0.4rem auto;
-  margin-top: 3rem;
 }
 
 #switch button {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.9rem;
+  height: 1.9rem;
   background: white no-repeat center;
   border: 0;
   border-radius: 50%;
@@ -112,6 +114,7 @@ header {
   margin-left: 0.5rem;
   font-family: "Satisfy", cursive;
   font-size: 1.3rem;
+  text-align: center;
 }
 
 .nav-list a:hover {
