@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('nav-list ul li a');
+    const links = document.querySelectorAll('header-first nav-list li a');
 
     for (const link of links) {
         link.addEventListener('click', function(event) {
