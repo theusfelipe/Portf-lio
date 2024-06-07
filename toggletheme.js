@@ -1,10 +1,10 @@
-function togglemode() {
+/*function togglemode() {
     const html = document.documentElement
     html.classList.toggle("light")
   
   
     //pegar a tag img
-    const img = document.querySelector("#profile img")
+    const img = document.querySelector("#container button img")
   
     //substituir a imagem
     if (html.classList.contains("light")) {
@@ -15,5 +15,5 @@ function togglemode() {
       img.setAttribute("body")
     }
   }
+*/
 
-  
