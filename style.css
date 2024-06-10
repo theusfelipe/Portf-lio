@@ -821,6 +821,13 @@ footer {
     margin-bottom: 3rem;
   }
 
+  #section-contact {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6.8rem;
+  }
+
+  
 
 }
 
