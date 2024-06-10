@@ -10,6 +10,9 @@
   font-size: 62, 5%;
 }
 
+html {
+  margin: auto;
+}
 body {
   background: rgb(31,68,77);
   background: radial-gradient(circle, rgba(31,68,77,1) 41%, rgba(0,0,0,1) 100%);
@@ -490,7 +493,7 @@ main h1 {
   align-items: center;
   flex-direction: column;
 
-  gap: 5rem;
+  gap: 3rem;
 
   padding: 4rem;
   margin: auto;
@@ -501,8 +504,8 @@ main h1 {
 /* BOX PROJETO 1 */
 .box-project1 {
   padding: 1rem 3.2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
+  height: 18rem;
   border-radius: 1rem;
   background-color: rgb(28, 79, 92);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -512,7 +515,7 @@ main h1 {
   color: rgb(255, 255, 255);
   font-weight: 200;
   font-size: 1.4rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .box-project1 p {
@@ -528,10 +531,10 @@ main h1 {
   width: 100%;
   height: 100%;
   margin-top: 1.2rem;
+  object-fit: cover;
 }
 
 .box-project1:hover {
-  transform: scaleY(1.1);
   transition: 0.8s;
   cursor: pointer;
   background-color: rgb(105, 147, 149);
@@ -540,15 +543,15 @@ main h1 {
 /* BOX PROJETO 2 */
 .box-project2 {
   padding: 1rem 3.2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
+  height: 18rem;
   border-radius: 1rem;
   background-color: rgb(28, 79, 92);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .box-project2 h4 {
-  text-align: center;
+  text-align: justify;
   color: rgb(255, 255, 255);
   font-weight: 200;
   font-size: 1.4rem;
@@ -570,7 +573,6 @@ main h1 {
 }
 
 .box-project2:hover {
-  transform: scaleY(1.1);
   transition: 0.8s;
   cursor: pointer;
   background-color: rgb(105, 147, 149);
@@ -580,8 +582,8 @@ main h1 {
 .box-project3 {
   /* border: 1px solid red; */
   padding: 1rem 3.2rem;
-  width: 25rem;
-  height: 20rem;
+  width: 20rem;
+  height: 18rem;
   border-radius: 1rem;
   background-color: rgb(28, 79, 92);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -599,6 +601,7 @@ main h1 {
   margin-top: 1rem;
   font-size: 1.2rem;
   color: #adadad;
+  margin-top: 1rem;
 }
 
 .box-project3 img {
@@ -610,7 +613,6 @@ main h1 {
 }
 
 .box-project3:hover {
-  transform: scaleY(1.1);
   transition: 0.8s;
   cursor: pointer;
   background-color: rgb(105, 147, 149);
@@ -767,7 +769,6 @@ footer {
   }
 
   .box-project1:hover {
-    transform: scaleY(1.1);
     transition: 0.8s;
     cursor: pointer;
     background-color: rgb(105, 147, 149);
@@ -778,7 +779,6 @@ footer {
   }
 
   .box-project2:hover {
-    transform: scaleY(1.1);
     transition: 0.8s;
     cursor: pointer;
     background-color: rgb(105, 147, 149);
@@ -790,7 +790,6 @@ footer {
   }
 
   .box-project3:hover {
-    transform: scaleY(1.1);
     transition: 0.8s;
     cursor: pointer;
     background-color: rgb(105, 147, 149);
@@ -801,7 +800,6 @@ footer {
   }
   
   .box-project4:hover {
-    transform: scaleY(1.1);
     transition: 0.8s;
     cursor: pointer;
     background-color: rgb(105, 147, 149);
