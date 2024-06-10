@@ -824,7 +824,8 @@ footer {
   #section-contact {
     display: flex;
     flex-direction: row;
-    margin-left: 6.8rem;
+    margin-left: 11rem;
+    gap: 30rem;
   }
 
   
