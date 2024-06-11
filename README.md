@@ -15,7 +15,7 @@ Bem-vindos ao meu portfólio! Aqui você encontrará uma coleção dos meus trab
 
 - Abra index.html no seu navegador para visualizar o portfólio.
 
-- Acesse o link deploy do projeto: <a href="" target="_blank">Portfólio</a>
+- Acesse o link deploy do projeto: <a href="https://portf-lio-bay-tau.vercel.app/" target="_blank">Portfólio</a>
 
  
 Sinta-se à vontade para explorar e entrar em contato através da seção de contato!
