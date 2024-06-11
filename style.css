@@ -55,9 +55,14 @@ header {
   line-height: 2rem;
   margin-bottom: 1rem;
   
-
+  animation: fadeOutIn 2s infinite;
+  font-weight: 400;
   text-align: center;
   color: #adadad;
+}
+.animated-parag {
+  display: inline-block;
+  animation: fadeOutIn 2s infinite;
 }
 
 #switch {
@@ -175,22 +180,25 @@ main h1 {
   gap: 1rem;
   margin-bottom: 8rem;
   animation: AppearInTop 2s ease-out forwards;
-}
-
+  }
+  
 .social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.8rem 0.8rem;
+
   color: rgb(255, 255, 255);
   margin-top: 2rem;
+  background:  rgb(6, 52, 63);
+  border-radius: 1rem;
 }
 
 .social-links a:hover {
   background-color: rgba(95, 158, 160, 0.596);
-  border: 2px solid rgb(0, 181, 198);
+  border: 2px solid rgb(9, 229, 249);
   border-radius: 4rem;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 .contact {
@@ -866,4 +874,9 @@ footer {
   to {
     left: 0;
   }
+}
+
+@keyframes fadeOutIn {
+  0%, 20%, 100% { opacity: 1; }
+    40%, 80% { opacity: 0; }
 }
