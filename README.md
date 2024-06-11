@@ -15,7 +15,7 @@ Bem-vindo ao meu portfólio pessoal! Aqui você encontrará uma coleção dos me
 
 - Abra index.html no seu navegador para visualizar o portfólio.
 
-- Acesse o link deploy do projeto: 
+- Acesse o link deploy do projeto: https://portf-lio-bay-tau.vercel.app/
 
 Sinta-se à vontade para explorar e entrar em contato através da seção de contato!
 
