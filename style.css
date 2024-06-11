@@ -650,7 +650,6 @@ main h1 {
 }
 
 .box-project4:hover {
-  transform: scaleY(1.1);
   transition: 0.8s;
   cursor: pointer;
   background-color: rgb(105, 147, 149);
