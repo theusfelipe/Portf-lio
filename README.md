@@ -1,6 +1,6 @@
 ## Portfólio 
 
-Bem-vindo ao meu portfólio pessoal! Aqui você encontrará uma coleção dos meus trabalhos e projetos. Este site foi criado com HTML, CSS e JavaScript, com o objetivo de demonstrar minhas habilidades em desenvolvimento web. 
+Bem-vindos ao meu portfólio! Aqui você encontrará uma coleção dos meus trabalhos e projetos. Este site foi criado com HTML, CSS e JavaScript, com o objetivo de demonstrar minhas habilidades em desenvolvimento web. 
 
 
 ## Funcionalidades
@@ -15,7 +15,8 @@ Bem-vindo ao meu portfólio pessoal! Aqui você encontrará uma coleção dos me
 
 - Abra index.html no seu navegador para visualizar o portfólio.
 
-- Acesse o link deploy do projeto: https://portf-lio-bay-tau.vercel.app/
+- Acesse o link deploy do projeto: <a href="" target="_blank">Portfólio</a>
 
+ 
 Sinta-se à vontade para explorar e entrar em contato através da seção de contato!
 
