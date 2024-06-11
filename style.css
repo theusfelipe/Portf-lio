@@ -21,10 +21,6 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
-body.light-theme {
-  background: rgb(78, 136, 155);
-  color: rgb(246, 5, 5);
-}
 
 #container {
   width: 100%;
@@ -91,13 +87,13 @@ header {
  margin: auto;
 }
 
-.light #themeToggle {
+.light #switch #themeToggle {
   animation: slide-in 0.2s forwards;
 }
 
 #themeToggle:hover {
-  outline: 0.2rem solid rgb(50, 158, 119);
-  transition: 0.2s;
+  outline: 0.1rem solid rgb(50, 158, 119);
+  transition: 0.4s;
 }
 
 #switch span {
@@ -152,7 +148,7 @@ header {
   border-radius: 50%;
   overflow: hidden; 
   border: 0.4rem solid #00000093;
-  
+  filter: drop-shadow(.1rem .1rem 5rem rgb(57, 176, 205));
 }
 
 main {
@@ -318,6 +314,7 @@ main h1 {
   height: 100%;
   text-align: center;
   padding: 2rem 2rem;
+  
 }
 
 #about-me h2 {
@@ -352,6 +349,7 @@ main h1 {
   overflow: hidden; 
   border: 0.4rem solid #00000093;
   margin-bottom: 3rem;
+  filter: drop-shadow(.1rem .1rem 3rem rgb(57, 176, 205));
 }
 
 .description {
@@ -824,6 +822,7 @@ footer {
     border: 0.4rem solid #00000093;
     margin-bottom: 3rem;
     animation: AppearInTop 3.2s ease-out forwards;
+    filter: drop-shadow(.1rem .1rem 5rem rgb(57, 176, 205));
   }
 
   #section-contact {
