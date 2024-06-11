@@ -1,4 +1,4 @@
-const title = document.getElementById('animated-parag');
+/*const title = document.getElementById('animated-parag');
 const text = title.textContent;
 title.innerHTML = '';
 
@@ -9,3 +9,5 @@ text.split('').forEach((char, index) => {
     span.classList.add('fade');
     title.appendChild(span);
 });
+
+*/

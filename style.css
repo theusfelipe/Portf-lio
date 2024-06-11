@@ -54,16 +54,13 @@ header {
   font-size: 1.6rem;
   line-height: 2rem;
   margin-bottom: 1rem;
+
   
-  animation: fadeOutIn 2s infinite;
   font-weight: 400;
   text-align: center;
   color: #adadad;
 }
-.animated-parag {
-  display: inline-block;
-  animation: fadeOutIn 2s infinite;
-}
+
 
 #switch {
   position: relative;
