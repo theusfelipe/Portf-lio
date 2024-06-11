@@ -1,19 +1,8 @@
-/*function togglemode() {
-    const html = document.documentElement
-    html.classList.toggle("light")
-  
-  
-    //pegar a tag img
-    const img = document.querySelector("#container button img")
-  
-    //substituir a imagem
-    if (html.classList.contains("light")) {
-      //se tiver light mode, adicionar a imagem light
-      img.setAttribute("src", "./assets/back5css.jpg")
-    } else {
-      //se tiver sem light mode, manter a imagem normal
-      img.setAttribute("body")
-    }
-  }
-*/
+document.getElementById('themeToggle').addEventListener('click', function() {
+  document.body.classList.toggle('dark-theme');
+  document.body.classList.toggle('light-theme');
+});
+
+// Set initial theme
+document.body.classList.add('light-theme');
 
