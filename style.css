@@ -22,13 +22,8 @@ body {
 }
 
 body.light-theme {
-  background-color: white;
-  color: black;
-}
-
-body.dark-theme {
-  background-color: black;
-  color: white;
+  background: rgb(78, 136, 155);
+  color: rgb(246, 5, 5);
 }
 
 #container {
@@ -63,7 +58,10 @@ header {
   font-size: 1.6rem;
   line-height: 2rem;
   margin-bottom: 1rem;
+  
+
   text-align: center;
+  color: #adadad;
 }
 
 #switch {
@@ -93,13 +91,11 @@ header {
  margin: auto;
 }
 
-
-
-.light #switch button {
+.light #themeToggle {
   animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover {
+#themeToggle:hover {
   outline: 0.2rem solid rgb(50, 158, 119);
   transition: 0.2s;
 }
